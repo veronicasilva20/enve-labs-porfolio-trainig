@@ -1,0 +1,51 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F0FFF0;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+.proyecto {
+    border: 1px solid #131111;
+    background-color: #f5deb3;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0px 0px 8px rgba(150, 13, 13, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.proyecto:hover {
+    transform: translateY(-5px);
+}
+
+.datos-personales ul,
+.experiencia p {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.experiencia h4 {
+    margin-top: 20px;
+}
